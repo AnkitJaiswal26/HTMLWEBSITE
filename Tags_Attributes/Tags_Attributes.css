@@ -1,0 +1,582 @@
+/*################################################################################################################*/
+/*#######################################====Whole Body Formatting Ends Here======################################*/
+/*################################################################################################################*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #fff;
+    color: rgb(90, 88, 88);
+    display: block;
+    overflow-x: hidden;
+    font-family: Comic sans ms, Arial, sans-serif;
+}
+
+.column1 {
+    width: 22.058823529411764%;
+    background-color: #ececec;
+}
+
+.column2 {
+    float: right;
+    width: 1050px;
+}
+  
+.row{
+    margin-top: 0;
+    padding-top: 0;
+    overflow-x: hidden;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    overflow-x: hidden;
+}
+
+/*################################################################################################################*/
+/*#######################################====Whole Body Formatting Ends Here======################################*/
+/*################################################################################################################*/
+
+/*################################################################################################################*/
+/*#####################################====Whole SideBar Formatting Starts Here=====##############################*/
+/*################################################################################################################*/
+
+
+#sidebar{
+    width: 300px;
+    overflow: visible;
+    background-color: #212529!important;
+    color: #ffffff;
+    line-height: 1.8;
+    font-weight: normal;
+    z-index: 1000;
+}
+
+.ch{
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.p-sb{
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.ul-sb{
+    padding-left: 0!important;
+    list-style: none;
+    text-decoration: none;
+}
+
+.li-sb{
+    text-decoration: none;
+    font-size: 16px;
+    text-align: -webkit-match-parent;
+    color: #da6934;
+}
+
+.li-sb:hover, .a-sb:hover{
+    font-size: 20px;
+    color: #212529;
+    background-color: #da6934;
+    margin-top: -15px;
+    font-weight: 700;
+}
+
+.li-sb:focus, .a-sb:focus{
+    font-size: 20px;
+    color: #212529;
+    background-color: #da6934;
+}
+
+.li-sb:active, .a-sb:active{
+    font-size: 20px;
+    color: #212529;
+    background-color: #da6934; 
+}
+
+.a-sb{
+    color: #da6934;
+    text-decoration: none!important;
+    padding: 15px 30px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.li-active{
+    text-decoration: none;
+    font-size: 16px;
+    text-align: -webkit-match-parent;
+    background-color: #da6934;
+}
+
+.a-active{
+    color:#212529;
+    text-decoration: none!important;
+    padding: 15px 30px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.span-active{
+    padding-left: 1.4rem;
+    color: #da6934;
+}
+
+.a-active:hover{
+    color:#212529;
+    text-decoration: none!important;
+    padding: 15px 30px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.span-active{
+    padding-left: 1.4rem;
+    color: #da6934;
+}
+
+.a-sb, .span-sb{
+    padding-left: 1.4rem;
+}
+
+.span-sb{
+    color: #da6934;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn{
+    outline: none;
+    width: 300px;
+    height: 60px;
+    background-color: #212529;
+    border: 0px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: -webkit-match-parent;
+    color: #da6934;
+    padding-left: 55px;
+}
+
+.dropdown-btn:focus{
+    outline: none;
+}
+
+.dropdown-container{
+    min-width: 160px;
+    overflow: auto;
+}
+
+.ul-d{
+    padding-left: 0!important;
+    list-style: none;
+    text-decoration: none;
+}
+
+.a-d{
+    color: #da6934;
+    text-decoration: none!important;
+    padding: 15px 30px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.span-d,.a-d{
+    padding-left: 1.9rem;
+}
+
+.span-d{
+    color: #da6934;
+}
+
+.li-end{
+    padding: 50px 50px;
+}
+
+
+/*################################################################################################################*/
+/*#####################################====Whole SideBar Formatting Ends Here=====################################*/
+/*################################################################################################################*/
+
+
+
+/*################################################################################################################*/
+/*######################################===Whole Card Formatting Ends Here=====###################################*/
+/*################################################################################################################*/
+
+
+.cards{
+    padding: 20px 20px;
+    background-color: #ececec;
+}
+
+.card-img {
+    margin-bottom: 30px;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    align-items: center;
+}
+
+.img1{
+    width: 1020px;
+    height: 450px;
+}
+
+.card-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(130, 186, 223);
+    border: 1px solid rgba(0,0,0,.125);
+    width: 1020px;
+    margin-bottom: 30px;
+}
+
+.info{
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.info-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-p{
+    padding-right: 443.171px;
+}
+
+.info-svg{
+    padding-top: 6px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+.card-tag{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 228, 199);
+    border: 1px solid rgba(0,0,0,.125);
+    width: 1020px;
+    margin-bottom: 30px;
+}
+
+.tag1{
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.tag-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.tag-p{
+    padding-right: 764.604px;
+}
+
+.tag-svg{
+    padding-top: 6px;
+    width: 50px;
+    height: 50px;
+}
+
+.tag-p2{
+    margin-bottom: 0;
+}
+
+.card-des{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(157, 184, 93);
+    border: 1px solid rgba(0,0,0,.125);
+    width: 1020px;
+    margin-bottom: 30px;
+}
+
+.des{
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.des-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.des-svg{
+    padding-top: 6px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+.console-top{
+    display: flex;
+}
+
+.console-des{
+    background-color: #3d3d3d;
+}
+
+.words{
+    padding: 20px 25px;
+    font-size: 16;
+    color: rgb(90, 88, 88);
+}
+
+.card-exp{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 145, 145);
+    border: 1px solid rgba(0,0,0,.125);
+    width: 1020px;
+    margin-bottom: 30px;
+}
+
+.exp{
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.exp-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.exp-p{
+    padding-right: 846.932px;
+}
+
+.exp-svg{
+    padding-top: 6px;
+    width: 50px;
+    height: 50px;
+}
+
+.exp-p2{
+    margin-bottom: 0;
+}
+
+.card-note{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(191, 171, 228);
+    border: 1px solid rgba(0,0,0,.125);
+    width: 1020px;
+    margin-bottom: 30px;
+}
+
+.note-words{
+    padding: 20px 25px;
+    font-weight: 650;
+    font-size: 16px;
+}
+
+.note-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.note-svg{
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.note-p{
+    padding-right: 534.297px;
+}
+
+.bold{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+/*################################################################################################################*/
+/*#####################################===Whole Bodypart Formatting Ends Here=====################################*/
+/*################################################################################################################*/
+
+
+/*################################################################################################################*/
+/*#####################################===Whole Console Formatting Ends Here=====#################################*/
+/*################################################################################################################*/
+
+.p{
+    display: inline;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+
+.code{
+    font-size: 18px;
+    padding: 20px 25px;
+    background-color: #1b1d1e;
+}
+
+.c{
+    display: flex;
+    flex-direction: row;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.code-svg{
+    padding-top: 6px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-console{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1d1e;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 1020px;
+    margin-bottom: 30px;
+}
+
+.console{
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.console-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.console-p{
+    padding-right: 849.280px;
+}
+
+.console-svg{
+    padding-top: 6px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+
+.tag{
+    color: #D62664;
+}
+
+.angular-brackets{
+    color: #f7f7f7;
+}
+
+.forward-slash{
+    color: #f7f7f7;
+}
+
+.inner-text{
+    color: #f7f7f7;
+}
+
+.card-code{
+    margin-bottom: 30px;
+}
+
+.attribute-name{
+    color: rgb(110, 207, 107);
+}
+
+.attribute-value{
+color: #e9c655;
+}
+
+
+
+
+
+/*################################################################################################################*/
+/*#####################################===Whole Console Formatting Ends Here=====#################################*/
+/*################################################################################################################*/
+
+.navigation-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 1020px;
+}
+
+.button1{
+    width: 200px;
+    height: 80px;
+    color: rgb(107, 107, 107);
+    background-color: rgb(174, 187, 0);
+    float: left;
+    border: 2px solid #333333;
+}
+
+.button2{
+    width: 200px;
+    height: 80px;
+    color: rgb(107, 107, 107);
+    background-color: rgb(16, 150, 87);
+    float: right;
+    margin-left: 628px;
+}
+
+.a-button1, .a-button2{
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.forward{
+    color: #000000;
+}
+
+.backward{
+    color: #000000;
+}
